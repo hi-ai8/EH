@@ -1,0 +1,10 @@
+'d'
+Key.space
+'f'
+'g'
+'v'
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
+Key.backspace
