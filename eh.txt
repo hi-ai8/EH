@@ -24,7 +24,7 @@ nmap -sX -T4 scanme.nmap.org
 whois -----------
 https://whois.domaintools.com/flipkart.com
 -----------
-
+prac 6 XXS
 https://github.com/digininja/DVWA
 http://localhost/dvwa/setup.php
 Message: 
